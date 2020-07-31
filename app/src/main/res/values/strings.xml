@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Image Transformation</string>
+    <string name="select_image_result">Selecting Result:</string>
+    <string name="download_image_result">Transforming Result:</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_video">Forum</string>
+    <string name="tab_micro">Message</string>
+    <string name="tab_me">Account</string>
+    <string name="OpenGallery">Open Gallery</string>
+    <string name="UploadImage">Upload Image</string>
+    <string name="CatToAnime">Cat to Anime</string>
+    <string name="AnimeToCat">Anime to Cat</string>
+    <string name="mode">PLEASE SELECT A MODE</string>
+
+</resources>
