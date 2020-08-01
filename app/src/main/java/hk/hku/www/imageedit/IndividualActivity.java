@@ -31,7 +31,7 @@ import okhttp3.Response;
 import okhttp3.ResponseBody;
 
 public class IndividualActivity extends AppCompatActivity {
-    //图片选择器
+    //Image Selector
     private static final MediaType MEDIA_TYPE_JPG = MediaType.parse("image/jpg");
     private final OkHttpClient client = new OkHttpClient.Builder()
                                         .connectTimeout(10, TimeUnit.MINUTES)
@@ -101,14 +101,14 @@ public class IndividualActivity extends AppCompatActivity {
         new Thread() {
             @Override
             public void run() {
-                //子线程需要做的工作
+                //Work need to be done by child thread
                 RequestBody requestBody = new MultipartBody.Builder()
                         .setType(MultipartBody.FORM)
                         .addFormDataPart("file",file.getName(),
                                 RequestBody.create(MEDIA_TYPE_JPG, file))
                         .addFormDataPart("mode",mode)
                         .build();
-                //设置为自己的ip地址
+                //setting the IP address of smartphone
                 Request request = new Request.Builder()
                         .url("http://10.0.2.2:5000/uploadImage")
                         .post(requestBody)
