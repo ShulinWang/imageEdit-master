@@ -16,7 +16,7 @@ import cn.finalteam.galleryfinal.GalleryFinal;
 import cn.finalteam.galleryfinal.model.PhotoInfo;
 public class ImageUploadingActivity extends AppCompatActivity {
 
-    //图片选择器
+    //Image Selector
     private final int REQUEST_CODE_GALLERY = 1001;
     private Button openButton;
     private ImageView selectResult;
@@ -37,7 +37,7 @@ public class ImageUploadingActivity extends AppCompatActivity {
     }
 
     /**
-     * 选取图片后的回调
+     * recall the address of image
      */
     private GalleryFinal.OnHanlderResultCallback mOnHanlderResultCallback = new GalleryFinal.OnHanlderResultCallback() {
         @Override
