@@ -1,5 +1,7 @@
 package hk.hku.www.imageedit;
-
+/*
+@author https://github.com/pengjianbo/GalleryFinal
+ */
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
