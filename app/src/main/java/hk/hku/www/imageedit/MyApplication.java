@@ -1,7 +1,8 @@
 package hk.hku.www.imageedit;
 
 /*
-@author https://github.com/pengjianbo/GalleryFinal
+ * Author:pengjianbo 
+ * URL: https://github.com/pengjianbo/GalleryFinal
  */
 import android.app.Application;
 import android.content.Context;
