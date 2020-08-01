@@ -24,7 +24,7 @@ public class MyApplication extends Application {
         super.onCreate();
         com.nostra13.universalimageloader.core.ImageLoader imageLoader = com.nostra13.universalimageloader.core.ImageLoader.getInstance();
         imageLoader.init(ImageLoaderConfiguration.createDefault(this));
-        //配置主题
+        //set the theme of our application
         //ThemeConfig.CYAN
         ColorDrawable colorDrawable=(ColorDrawable) getDrawable(R.drawable.color_drawable);
         ThemeConfig theme = new ThemeConfig.Builder()
@@ -33,7 +33,7 @@ public class MyApplication extends Application {
                 .setIconRotate(R.drawable.ic_rotate)
                 .setEditPhotoBgTexture(colorDrawable)
                 .build();
-        //配置功能
+        //set the function of our appication
         FunctionConfig functionConfig = new FunctionConfig.Builder()
                 .setEnableCamera(true)
                 .setEnableEdit(true)
@@ -43,9 +43,9 @@ public class MyApplication extends Application {
                 .setEnableRotate(true)
                 .setEnablePreview(true)
                 .build();
-        //配置imageloader
+        //set the imageloader
         ImageLoader imageloader = new UILImageLoader();
-        //设置核心配置信息
+        //set the cor configuration of imageloader
         CoreConfig coreConfig = new CoreConfig.Builder(this, imageloader, theme)
                 .setDebug(BuildConfig.DEBUG)
                 .setFunctionConfig(functionConfig)
