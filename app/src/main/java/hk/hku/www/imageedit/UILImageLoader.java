@@ -1,6 +1,7 @@
 package hk.hku.www.imageedit;
 /*
-@author https://github.com/pengjianbo/GalleryFinal
+ * Author:pengjianbo 
+ * URL: https://github.com/pengjianbo/GalleryFinal
  */
 import android.app.Activity;
 import android.graphics.Bitmap;
@@ -13,11 +14,6 @@ import com.nostra13.universalimageloader.core.imageaware.ImageViewAware;
 
 import cn.finalteam.galleryfinal.widget.GFImageView;
 
-/**
- * Desction:
- * Author:pengjianbo
- * Date:15/10/10 下午5:52
- */
 public class UILImageLoader implements cn.finalteam.galleryfinal.ImageLoader {
 
     private Bitmap.Config mImageConfig;
